@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>সিকদার রেন্ট এ কার
+    </title>
+    <link rel="stylesheet" href="Web design class13.css">
+    <!-- Start Css Design. -->
+    <style type="text/css">
+         
+    *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat';
+}
+
+section > div > form{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.container{
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0px 0px 0px 5px #000;
+    background-color: rgb(148, 203, 255);
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.form-group{
+    width: 100%;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.form-group input, 
+.form-group textarea{
+    width: 100%;
+    padding: 5px;
+    font-size: 18px;
+    border: 1px solid rgba(128, 128, 128, 0, 199);
+    margin-top: 5px;
+}
+textarea{
+    resize: vertical;
+
+}
+button[ type="submit"]{
+    width: 100%;
+   
+    box-shadow: 6px 6px 6px 6px rgb(115, 255, 0);
+    padding: 20px;
+    font-size: 24px;
+    border-radius: 50px 50px;
+   background-position: center;
+    color: rgb(27, 247, 126);
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+  box-sizing: border-box;
+ background-color: rgb(0, 0, 0);
+ max-width: 500px;
+
+}
+h1{
+    text-align: center;
+    color: #000;
+}
+
+        h2{
+            text-align: center;
+            color: rgb(0, 0, 0);
+            border: solid;
+            box-sizing: border-box;
+            margin: 10px 500px;
+            background-origin: padding-box;
+            background-color: aqua;
+            border-radius: 58px;
+            font-size: xx-large;
+            font-style: oblique; 
+       
+            
+        }
+        
+     input{
+        box-sizing: content-box;
+     }
+     h3{
+        text-align: right;
+     }
+     h4{
+        text-align: right;
+        margin: 0 10px;
+        
+        
+     }
+   
+    div > ul {
+        text-align: right;
+        margin: 0 10px;
+       font-weight: 200;
+     line-height: 20px;
+      font-style: italic;
+      margin-top: auto;
+     
+      
+    }
+    iframe{
+        margin: 0 15px;
+    }
+
+ button[ type="reset"]{
+    width: 100%;
+   
+   box-shadow: 6px 6px 6px 6px rgb(255, 0, 0);
+   padding: 20px;
+   font-size: 24px;
+   border-radius: 50px 50px;
+  background-position: center;
+   color: rgb(255, 0, 0);
+   text-align: center;
+   cursor:pointer;
+   margin-top: 10px;
+ box-sizing: border-box;
+background-color: rgb(0, 0, 0);
+max-width: 500px;
+
+
+
+ }
+ div> u{
+    color: rgb(0, 0, 0);
+    cursor:no-drop;
+   
+ }
+ /*reset defailt css*/
+*{
+    margin: 0 ;padding: 0;box-sizing: border-box;
+}
+/*nav ber start*/
+
+nav{
+    width: 100%;
+    height: 125px;
+    background-color: aqua;
+        color: rgb(0, 0, 0);
+    display: flex;
+    padding:  0 15px;
+   
+}
+
+a:hover{
+    cursor: pointer;
+    border: solid;
+    box-sizing: border-box;
+   
+}
+.content{
+    background: white;
+    width: 50%;
+    padding: 40px;
+    margin: 100px auto ;
+}
+.brand {
+    color: rgb(247, 0, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 125px;
+    
+}
+
+
+.nav{
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+}
+.nav > li {
+    margin: 0 10px;
+   
+    
+}
+.nav > li > a {
+    text-decoration: none;
+    color: rgb(10, 10, 10);
+    line-height: 125px;
+    text-align: right;
+    
+   
+}
+.nav > li > div {
+     color: black;
+     text-decoration: none;
+     line-height: 30px; 
+    
+}
+
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    color: aliceblue;
+    justify-content: space-evenly;
+background: #2f2f2f;}
+    
+.f-item{
+    width: 50%;
+    max-width: 300px;
+    margin: 15px;
+}
+.f-item h4{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: #2f2f2f;
+}  hr{
+                height: 5px;
+             
+            }
+    </style>
+    <!-- End Css Design. -->
+</head>
+<body >
+    
+    <!-- Start Headline of this page  -->
+    <nav>
+    
+        <a class="brand" href="#"> সিকদার রেন্ট এ কার </a>
+        <ul class="nav">
+            <li>
+                <i class="i-plain icon-call nomargin"></i>
+                <div class="he-text nh"> Call us: <span class="n"><a href="tel:+8801948174606" title="Contact Number">+8801948174606</a></span></div>
+                </li>
+              <li>
+                <i class="i-plain icon-line2-envelope nomargin"></i>
+                <div class="he-text nh">Email Us: <span><a href="mailto:nabilhasannafi1122@gmail.com" title="Email Us">nabilhasannafi1122@gmail.com</a></span></div>
+              </li>
+              <li>
+                <div class="he-text nh"> WhatsApp:<span class="n"><a href="tel:+8801948174606" title="Contact Number">+8801948174606</a></span><span class="n"> Or<br><a href="tel:+8801793486511" title="Contact Number">+8801793486511</a></span></div>
+              </li>
+            <li>
+            <li>
+                <a href="./Home.html">Home</a>
+            </li>
+            <li>
+                <a href="./About.html">About</a>
+            </li>
+            <li>
+                <a href="./Booking.html">Booking</a>
+            </li>
+            <li>
+                <a href="./Contact.html">Contact</a>
+            </li>
+    
+        </ul>
+       
+    
+    </nav><hr><hr><hr>
+    <!-- End Headline of this page-->
+
+
+    <!--Start Contact Details -->
+    <u><h2>Contact Us</h2></u>
+   
+
+    
+    <div id="navcontainer">
+        <ul>
+            <li><i class="icon-tasks"></i><b>Facebook Page:</b> &nbsp; <a href="https://web.facebook.com/khadija.yeasmin.319" target="_blank">Khadija Yesmin (Propritor).</a></li>
+            <li><i class="icon-mail"></i><b>Email:</b> &nbsp; nabilhasannafi1122@gmail.com</li>
+            <li><i class="icon-phone-sign"></i><b>Call Us:</b> &nbsp; +8801793486511,  +8801948174606</li>
+            <li><i class="icon-tablet2"></i><b>SMS/Viber/WhatsApp:</b> &nbsp; +8801771610083 or  +8801793486511</li>
+            
+            <li><i class="icon-home"></i><b>Registered Address:</b> &nbsp; Bottola, Barishal, Bangladesh.</li>
+            
+            <!-- <li><i class="icon-globe"></i>Bangladesh</li> -->
+        </ul>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d364.2367794818721!2d90.36389046494038!3d22.701892626385753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x37553520c09aa4ff%3A0xdb4d8c7a3c8885ee!2sHalim%20Mansion!5e1!3m2!1sen!2sbd!4v1664689071039!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      
+        <br><br><br>
+        <section>
+            
+            <div class="container">
+                <form action="https://formspree.io/f/mlevokbg" method="POST">
+        
+                    <div class="form-group">
+                        <!-- Use for Creating a account -->
+                      <u><h1>Create your account</h1></u>  
+                      <!-- Use for first name. -->
+                        <label for="firstName">First Name</label>
+                         <input type="text" id="firstName" name="firstname" placeholder="Enter your first name." required autocomplete="off">
+                    </div>
+                    <div class="form-group">
+                        <!-- Use for last name -->
+                        <label for="lastname">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" placeholder="Enter your last name."required autocomplete="off">
+        <div class="form-group">
+            <!-- Use for mobile number -->
+        <label for="number">Mobile number</label>
+        <input type=" number" id="Mobile" name="Mobile number" placeholder="Enter your mobile number."required autocomplete="off">
+        
+        
+        </div>
+        
+                    </div>
+                    <div class="form-group">
+                        <!-- Use for email address. -->
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Ex:example.com@gmail.com"required autocomplete="off">
+                    </div>
+                    <div class="form-group">
+                        <!-- Use for password -->
+                        <label for="Password">Password</label>
+                        <input type="password" id="password" name="password" placeholder="For security"required autocomplete="off">
+                       
+        
+                    </div> <br><br><br>
+           
+                      <!-- Use For Submit-->
+         
+            <button type="submit"> Submit </button>  
+                    <!-- Use for reset -->
+                    <button type="reset">
+                        Reset
+                       </button>
+                </form><br><br><br>
+</div>
+
+      <!--End Contact Details -->
+
+<main>
+          
+
+
+
+
+
+    <section class="footer">
+        <div class="f-item">
+           
+           <i></i> <p>Location : Barishal, Bottola.<br><br>
+                Move From : Barishal to Kuakata, Barishal to Potuakhali, Barishal to Mirjagonj,
+                Barishal to Borguna, Potuakhali to Kuakata, Potuakhali to mirjagonj.
+             </p>
+
+        </div>
+        <div class="f-item">
+          
+            <p>You can find here Ac car, Non-Ac Toyota Hihesh Microbus.</p>
+            <p><i><b>Mirjagonj, Potuakhali, Barishal</b></u></i></p>
+
+        </div>
+        <div class="f-item">
+            
+            <p>Page Creator: <i>Md. Nabil Hasan</i></p>
+            <p>Page Moderator: <i>Partho Debnath</i></p>
+            <p>Create For: <i>Istiak Ahmed Siam</i></p>
+            <p>E-mail: <i>nabilhasannafi1122@gmail.com</i></p></i>
+
+
+        </div>
+    </section>
+</main>
+    
+</body>
+</html>

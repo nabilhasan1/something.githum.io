@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>সিকদার রেন্ট এ কার </title>
+    <link rel="stylesheet" href="Web design class13.css">
+    <!-- Start Css design -->
+    <style type="text/css">
+        /*reset defailt css*/
+*{
+    margin: 0 ;padding: 0;box-sizing: border-box;
+}
+/*nav ber start*/
+hr{
+                height: 5px;
+             
+            }
+nav{
+    width: 100%;
+    height: 125px;
+    background-color: aqua;
+        color: rgb(0, 0, 0);
+    display: flex;
+    padding:  0 15px;
+   
+}
+
+a:hover{
+    cursor: pointer;
+    border: solid;
+    box-sizing: border-box;
+   
+}
+.content{
+    background: white;
+    width: 50%;
+    padding: 40px;
+    margin: 100px auto ;
+}
+.brand {
+    color: rgb(247, 0, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 125px;
+    
+}
+
+
+.nav{
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+}
+.nav > li {
+    margin: 0 10px;
+   
+    
+}
+.nav > li > a {
+    text-decoration: none;
+    color: rgb(10, 10, 10);
+    line-height: 125px;
+    text-align: right;
+    
+   
+}
+.nav > li > div {
+     color: black;
+     text-decoration: none;
+     line-height: 30px; 
+    
+}
+
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    color: aliceblue;
+    justify-content: space-evenly;
+background: #2f2f2f;}
+    
+.f-item{
+    width: 50%;
+    max-width: 300px;
+    margin: 15px;
+}
+.f-item h4{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: #2f2f2f;
+}
+       h1{
+     
+        text-align: center;
+        border-bottom: solid;
+
+       }
+       h5{
+        text-align: right;
+        margin: 3px 20px;
+        color: blueviolet;
+       }
+       h4{
+        text-align: center;
+       }
+    
+      
+       button[ type="submit"]{
+    width: 20%;
+   
+   box-shadow:  rgb(94, 255, 31);
+   padding: 0px;
+   font-size: 24px;
+   border-radius: 50px 50px;
+  background-position: center;
+   color: rgb(58, 248, 67);
+   text-align: center;
+   cursor:pointer;
+   margin-top: 20px;
+ box-sizing: border-box;
+background-color: rgb(0, 0, 0);
+
+
+
+ }
+form{
+    width: 100%;
+max-width: 700px;
+margin: 50px 300px;
+padding: 20px;
+box-shadow: 0px 0px 0px 5px #000;
+background-color: rgb(148, 203, 255);
+border-radius: 8px;
+margin-bottom: 20px;
+
+
+   }
+button[ type="reset"]{
+    width:20%;
+    margin: 50px 500px;
+   box-shadow: rgb(255, 0, 0);
+   padding: 0px;
+   font-size: 24px;
+   border-radius: 50px 50px;
+  background-position: center;
+   color: rgb(255, 0, 0);
+   text-align: center;
+   cursor:pointer;
+   margin-top: 10px;
+ box-sizing: border-box;
+background-color: rgb(0, 0, 0);
+
+
+
+ }
+    </style>
+    <!-- End Css Design -->
+</head>
+<body>
+    
+    <nav>
+    
+        <a class="brand" href="#"> সিকদার রেন্ট এ কার </a>
+        <ul class="nav">
+            <li>
+                <i class="i-plain icon-call nomargin"></i>
+                <div class="he-text nh"> Call us: <span class="n"><a href="tel:+8801948174606" title="Contact Number">+8801948174606</a></span></div>
+                </li>
+              <li>
+                <i class="i-plain icon-line2-envelope nomargin"></i>
+                <div class="he-text nh">Email Us: <span><a href="mailto:nabilhasannafi1122@gmail.com" title="Email Us">nabilhasannafi1122@gmail.com</a></span></div>
+              </li>
+              <li>
+                <div class="he-text nh"> WhatsApp:<span class="n"><a href="tel:+8801948174606" title="Contact Number">+8801948174606</a></span><span class="n"> Or<br><a href="tel:+8801793486511" title="Contact Number">+8801793486511</a></span></div>
+              </li>
+            <li>
+            <li>
+                <a href="./Home.html">Home</a>
+            </li>
+            <li>
+                <a href="./About.html">About</a>
+            </li>
+            <li>
+                <a href="./Booking.html">Booking</a>
+            </li>
+            <li>
+                <a href="./Contact.html">Contact</a>
+            </li>
+    
+        </ul>
+    
+    </nav><hr><hr><hr>
+    
+   
+        <form action="https://formspree.io/f/mlevokbg" method="post"> <h1>Booking Your Car</h1><br><br><br>
+            <!-- Use For Full Name-->
+            <label for="First name"><b>Your Name:</b></label>
+            <input type="text" id="firstName" name="firstname" placeholder="Enter your full  name." required autocomplete="off">
+            <br>
+            <br>
+            
+            
+            <!-- Use For Phone Number-->
+            <label for="mobile number"> <b>Your phone:</b></label>
+            
+            <input type=" number" id="Mobile" name="Mobile number" placeholder="Enter your mobile number."required autocomplete="off">
+            <br>
+            <br>
+            
+            <!-- Use For Address -->
+            <label for="address"><b> Your Address:</b></label>
+            
+            <input type="text" id="address" name="address" required autocomplete="off" placeholder="Enter your full address.">
+            <br>
+            <br>
+            <!-- Use For Start Form -->
+            <form action="">
+                <label> <b>Start From:</b></label>
+                <select name="" id="initial-scale" >
+                 
+                    <option value="1"> Barishal</option>
+                    <option value="2"> Barishal - Agailjhara</option>
+                    <option value="3">Barishal - Babuganj</option>
+                    <option value="4">Barishal - Barajalia</option>
+                    <option value="5">Barishal - Gouranadi</option>
+                    <option value="6">Barishal - Mehendiganj</option>
+                    <option value="7"> Barishal - Muladi</option>
+                    <option value="8">Barishal - Sahebganj</option>
+                    <option value="9"> Barishal - Town</option>
+                    <option value="10"> Barishal - Uzirpur</option>
+                    <option value="11">Bhola</option>
+                    <option value="12">  Jhalokati</option>
+                    <option value="8"> Patuakhali</option>
+                    <option value="9"> Pirojpur</option>
+                    <option value="9"> Borguna</option>
+                </select><br><br>
+
+                <!-- Use For Stop At -->
+                <form action="">
+                    <label> <b>Stop At:</b></label>
+                    <select name="" id="">
+                        <option value="">Select an option</option>
+                        <option value="1">Kuakata</option>
+                        <option value="2">Mirjagonj</option>
+                        <option value="3">Borguna</option>
+                        <option value="4">Lebukhali</option>
+                        <option value="5">Potuakhali</option>
+                        <option value="6">Golacipa</option>
+                    </select><br><br>
+
+                <!-- Use for choosing -->
+                    <label for=""><b>What kind of Car do you need:</b></label>
+                   <input type="radio" value="Ac" name="Ac">
+                   <label> <b>AC</b></label>
+                            <input type="radio" value="non-ac" name="non-ac">
+                       <label> <b>Non-Ac</b></label><br><br> 
+          <!-- Use For date -->
+            <label> <b> Journey Date:</b></label>
+            
+            <input type="date">
+            <br>
+            <!-- Use For Submit-->
+         
+            <button type="submit"> Submit </button>  
+        <!-- Use For Reset-->
+
+            <button type="reset">  Reset </button>
+          
+                            
+            </form>
+
+
+
+
+
+            <!--Start footer-->
+         
+            <main>
+          
+
+
+
+
+
+                <section class="footer">
+                    <div class="f-item">
+                       
+                       <i> <p>Location : Barishal, Bottola.<br><br>
+                            Move From : Barishal to Kuakata, Barishal to Potuakhali, Barishal to Mirjagonj,
+                            Barishal to Borguna, Potuakhali to Kuakata, Potuakhali to mirjagonj.
+                         </p>
+            
+                    </div>
+                    <div class="f-item">
+                      
+                        <p>You can find here Ac car, Non-Ac Toyota Hihesh Microbus.</p>
+                        <p><i><u><b>Mirjagonj, Potuakhali, Barishal</b></u></i></p>
+            
+                    </div>
+                    <div class="f-item">
+                        
+                        <p>Page Creator: <i>Md. Nabil Hasan</i></p>
+                        <p>Page Moderator: <i>Partho Debnath</i></p>
+                        <p>Create For: <i>Istiak Ahmed Siam</i></p>
+                        <p>E-mail: <i>nabilhasannafi1122@gmail.com</i></p></i>
+    
+            
+                    </div>
+                </section>
+            </main>
+<!--End Footer-->
+    
+</body>
+</html>
